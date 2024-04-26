@@ -1,0 +1,1 @@
+Welcome to our model. The reference for this model is from Ke TM, Lophatananon A, Muir KR. An Integrative Pancreatic Cancer Risk Prediction Model in the UK Biobank. Biomedicines. 2023 Dec 1;11(12):3206. doi: 10.3390/biomedicines11123206. PMID: 38137427; PMCID: PMC10740416. If you use it, please cite the above reference.
