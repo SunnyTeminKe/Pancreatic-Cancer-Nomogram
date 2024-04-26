@@ -11,13 +11,25 @@
         .reference-text {
             font-size: 1.2em; /* Makes the text 20% larger than the default */
         }
+        button {
+            padding: 10px 20px; /* Adds padding inside the button */
+            font-size: 16px; /* Sets the font size */
+            cursor: pointer; /* Changes the mouse cursor on hover */
+            background-color: purple; /* Sets the background color */
+            color: white; /* Sets the text color */
+            border: none; /* Removes the border */
+            border-radius: 5px; /* Rounds the corners of the button */
+        }
+        button:hover {
+            background-color: #7d3f98; /* Changes the background on hover */
+        }
     </style>
 </head>
 <body>
     <h1>Pancreatic Cancer Nomogram</h1>
     <p class="reference-text">Welcome to our model. The reference for this model is from Ke TM, Lophatananon A, Muir KR. An Integrative Pancreatic Cancer Risk Prediction Model in the UK Biobank. Biomedicines. 2023 Dec 1;11(12):3206. doi: <a href="http://10.3390/biomedicines11123206">10.3390/biomedicines11123206</a>. PMID: 38137427; PMCID: PMC10740416. If you use it, please cite the above reference.</p>
-    <iframe src="https://ts35ky-temin-ke.shinyapps.io/DynNomapp/" width="100%" height="500px" style="border:none;">
-        Sorry, your browser does not support embedded frames.
-    </iframe>
+    
+    <!-- Button to open the Shiny App -->
+    <button onclick="window.open('https://ts35ky-temin-ke.shinyapps.io/DynNomapp/', '_blank')">Show the Pancreatic Cancer Nomogram</button>
 </body>
 </html>
